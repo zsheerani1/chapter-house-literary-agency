@@ -1,0 +1,242 @@
+/* ===================================
+   Chapter House Literary Agency
+   Main Stylesheet
+=================================== */
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base page styles */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  background-color: #f6f2ea;
+  color: #1f1a17;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: #23443c;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration: underline;
+}
+
+.container {
+  width: min(90%, 1000px);
+  margin: 0 auto;
+}
+
+.section {
+  padding: 3rem 0;
+}
+
+/* Header */
+header {
+  background-color: #fcfaf6;
+  border-bottom: 1px solid #d8d0c4;
+}
+
+.top-bar {
+  padding: 1.25rem 0;
+}
+
+.site-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #1f1a17;
+  margin-bottom: 0.75rem;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  color: #2c2925;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover,
+nav a:focus-visible,
+nav a.active {
+  border-bottom: 2px solid #23443c;
+  text-decoration: none;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.3rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Text */
+p {
+  margin-bottom: 1rem;
+  max-width: 70ch;
+}
+
+ul {
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Hero */
+.hero {
+  padding: 4rem 0 3rem;
+}
+
+.hero h1 {
+  font-size: 2.7rem;
+  max-width: 12ch;
+}
+
+.hero p {
+  max-width: 650px;
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  background-color: #23443c;
+  color: #ffffff;
+  padding: 0.8rem 1.3rem;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover,
+.button:focus-visible {
+  background-color: #1a312b;
+  text-decoration: none;
+}
+
+/* Cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background-color: #fcfaf6;
+  border: 1px solid #ddd4c8;
+  border-radius: 6px;
+  padding: 1.5rem;
+}
+
+/* Form */
+form {
+  margin-top: 1rem;
+  max-width: 700px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #bfb6aa;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font: inherit;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #23443c;
+  outline-offset: 2px;
+}
+
+button {
+  background-color: #23443c;
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem 1.3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+}
+
+button:hover,
+button:focus-visible {
+  background-color: #1a312b;
+}
+
+/* Footer */
+footer {
+  background-color: #fcfaf6;
+  border-top: 1px solid #d8d0c4;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 3.4rem;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .site-title {
+    font-size: 2rem;
+  }
+}
