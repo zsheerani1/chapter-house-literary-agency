@@ -20,6 +20,20 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
+.slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.slide.active-slide {
+  opacity: 1;
+  z-index: 1;
+}
 
 body {
   font-family: Georgia, "Times New Roman", serif;
