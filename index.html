@@ -20,9 +20,8 @@
       </nav>
     </div>
   </header>
-  </header>
 
-<main>
+  <main>
     <section class="hero">
       <div class="container hero-layout">
         <div class="hero-text">
@@ -35,9 +34,9 @@
         </div>
 
         <div class="slideshow">
-          <img class="slide active-slide" src="https://images.unsplash.com/photo-1593430980369-68efc5a5eb34?q=80&w=2085&auto=format&fit=crop" alt="Open book">
-          <img class="slide" src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=987&auto=format&fit=crop" alt="Bookshelf">
-        </div>
+          <img class="slide active-slide" src="https://images.unsplash.com/photo-1593430980369-68efc5a5eb34?q=80&w=2085&auto=format&fit=crop" alt="Stack of open books against neutral background">
+          <img class="slide" src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=987&auto=format&fit=crop" alt="Wooden bookshelf full of books">
+
           <div class="slide-dots">
             <button class="dot active-dot" onclick="currentSlide(0)" aria-label="Image 1"></button>
             <button class="dot" onclick="currentSlide(1)" aria-label="Image 2"></button>
@@ -46,7 +45,7 @@
       </div>
     </section>
 
-  <section class="section">
+    <section class="section">
       <div class="container">
         <h2>What we represent</h2>
         <div class="card-grid">
@@ -69,7 +68,8 @@
         </div>
       </div>
     </section>
-  <section class="section">
+
+    <section class="section">
       <div class="container">
         <h2>Our approach</h2>
         <p>We work closely with writers to develop standout manuscripts and build lasting publishing careers. Our focus is on strong editorial guidance, careful positioning, and long-term author development.</p>
@@ -77,14 +77,14 @@
       </div>
     </section>
   </main>
-  </main>
 
   <footer>
     <div class="container">
       <p>&copy; 2026 Chapter House Literary Agency</p>
     </div>
   </footer>
-<script>
+
+  <script>
     let slideIndex = 0;
     const slides = document.querySelectorAll(".slide");
     const dots = document.querySelectorAll(".dot");
@@ -92,16 +92,16 @@
     function showSlide(n) {
       slides.forEach(s => s.classList.remove("active-slide"));
       dots.forEach(d => d.classList.remove("active-dot"));
-      
+
       slideIndex = (n + slides.length) % slides.length;
-      
+
       slides[slideIndex].classList.add("active-slide");
       dots[slideIndex].classList.add("active-dot");
     }
 
     function currentSlide(n) {
       showSlide(n);
-      slideIndex = n; 
+      slideIndex = n;
     }
 
     setInterval(() => {
