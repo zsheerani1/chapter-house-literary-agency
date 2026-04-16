@@ -1,33 +1,143 @@
+/* ===================================
+   Chapter House Literary Agency
+   style.css — Full Rebuild
+=================================== */
 
-.container {
-  width: min(90%, 1100px);
-  margin: 0 auto;
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #f7f4ee;
+  color: #1f1a17;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: min(88%, 1080px);
+  margin-inline: auto;
+}
+
+/* ── Header ── */
+header {
+  background-color: #fcfaf6;
+  border-bottom: 1px solid #e0d8cd;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 1.1rem 0;
+}
+
+.site-title {
+  font-size: 1.35rem;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  color: #1f1a17;
+}
+
+/* ── Nav ── */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2.25rem;
+}
+
+nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #3a3530;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 0.15rem;
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+
+nav a:hover,
+nav a:focus-visible,
+nav a.active {
+  color: #23443c;
+  border-bottom-color: #23443c;
+}
+
+/* ── Hero ── */
+.hero {
+  padding: 5.5rem 0 6rem;
+}
 
 .hero-layout {
   display: grid;
-  grid-template-columns: 1fr; 
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 3rem;
   align-items: center;
 }
 
-@media (min-width: 900px) {
-  .hero-layout {
-    grid-template-columns: 1fr 1fr; 
-  }
+.hero-text h1 {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.25rem;
+  color: #1a1612;
 }
 
+.hero-text p {
+  font-size: 1.05rem;
+  color: #4e4842;
+  max-width: 36rem;
+  margin-bottom: 2rem;
+  line-height: 1.75;
+}
 
+.button {
+  display: inline-block;
+  background-color: #23443c;
+  color: #f7f4ee;
+  padding: 0.9rem 1.6rem;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover,
+.button:focus-visible {
+  background-color: #1a312b;
+}
+
+/* ── Slideshow ── */
 .slideshow {
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 3; 
   max-width: 520px;
+  height: 420px;
   margin: 0 auto;
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.16);
 }
 
 .slide {
@@ -37,53 +147,185 @@
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 0.8s ease-in-out;
+  z-index: 1;
+  transition: opacity 0.9s ease-in-out;
 }
 
 .slide.active-slide {
   opacity: 1;
-  z-index: 1;
+  z-index: 2;
 }
 
+.slide-dots {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 3;
+}
 
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: rgba(255,255,255,0.35);
+  cursor: pointer;
+  padding: 0;
+  transition: background-color 0.2s ease;
+}
+
+.dot.active-dot {
+  background-color: #ffffff;
+}
+
+/* ── Sections ── */
+.section {
+  padding: 5rem 0;
+}
+
+.section + .section {
+  background-color: #fcfaf6;
+}
+
+h2 {
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+  color: #1a1612;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.5rem;
+  color: #1f1a17;
+}
+
+p {
+  max-width: 66ch;
+  margin-bottom: 1rem;
+  color: #3a3530;
+}
+
+/* ── Cards ── */
 .card-grid {
   display: grid;
-  grid-template-columns: 1fr; 
-  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 2.25rem;
 }
 
-@media (min-width: 600px) {
+.card {
+  background-color: #ffffff;
+  border: 1px solid #d4cfc8;
+  border-radius: 8px;
+  padding: 1.75rem 1.6rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
+}
+
+/* ── Form ── */
+form {
+  margin-top: 1.75rem;
+  max-width: 660px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  color: #3a3530;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #c5bdb1;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font: inherit;
+  color: #1f1a17;
+  transition: border-color 0.18s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #23443c;
+  box-shadow: 0 0 0 3px rgba(35,68,60,0.12);
+}
+
+button[type="submit"] {
+  background-color: #23443c;
+  color: #f7f4ee;
+  border: none;
+  padding: 0.9rem 1.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus-visible {
+  background-color: #1a312b;
+}
+
+/* ── Footer ── */
+footer {
+  background-color: #1a2e28;
+  color: #b8ccc8;
+  padding: 2.5rem 0;
+}
+
+footer p {
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  max-width: none;
+  color: #b8ccc8;
+}
+
+/* ── Responsive ── */
+@media (min-width: 650px) {
   .card-grid {
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .hero-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+  }
+
+  .slideshow {
+    max-width: 100%;
+    height: 420px;
+    margin-left: auto;
+    margin-right: 0;
   }
 }
 
 @media (min-width: 1000px) {
   .card-grid {
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
   }
-}
-
-
-.slide-dots {
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
-  z-index: 10;
-}
-
-.dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border: 2px solid white;
-  background: rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-}
-
-.dot.active-dot {
-  background: white;
 }
