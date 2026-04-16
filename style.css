@@ -128,7 +128,6 @@ nav a.active {
   background-color: #1a312b;
 }
 
-
 .slideshow {
   position: relative;
   width: 100%;
@@ -140,45 +139,27 @@ nav a.active {
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.16);
 }
 
-.slide {
-  position: absolute;
-  inset: 0;
-  width: 100%;
+.slides-track {
+  display: flex;
+  width: 200%;
+  height: 100%;
+  animation: slideshow 10s infinite;
+}
+
+.slides-track .slide {
+  position: relative;
+  width: 50%;
   height: 100%;
   object-fit: cover;
-  opacity: 0;
-  z-index: 1;
-  transition: opacity 0.9s ease-in-out;
+  flex-shrink: 0;
 }
 
-.slide.active-slide {
-  opacity: 1;
-  z-index: 2;
-}
-
-.slide-dots {
-  position: absolute;
-  bottom: 14px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 8px;
-  z-index: 3;
-}
-
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  background-color: rgba(255,255,255,0.35);
-  cursor: pointer;
-  padding: 0;
-  transition: background-color 0.2s ease;
-}
-
-.dot.active-dot {
-  background-color: #ffffff;
+@keyframes slideshow {
+  0%   { transform: translateX(0); }
+  45%  { transform: translateX(0); }
+  50%  { transform: translateX(-50%); }
+  95%  { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
 }
 
 
@@ -189,6 +170,7 @@ nav a.active {
 .section + .section {
   background-color: #fcfaf6;
 }
+
 
 h2 {
   font-size: clamp(1.7rem, 3vw, 2.3rem);
