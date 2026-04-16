@@ -128,19 +128,18 @@ Tested at 360px, 375px, 768px, and 1280px. The layout adjusts correctly at each 
 
 ### Bugs
 
-**Slideshow image overflowing the hero section**
+Slideshow image overflowing the hero section
 The slideshow image was stretching full width and breaking out of the two-column hero layout. The container had no constrained height. Fixed by removing aspect-ratio from the slideshow container and setting an explicit height of 420px, with object-fit cover on the images to keep them cropped correctly.
 
-**CSS not applying after upload**
+CSS not applying after upload
 After pushing the stylesheet to GitHub, the styling was not rendering on the live site. The browser was serving a cached version. Fixed by performing a hard refresh to force the browser to load the latest files.
 
-**Genre cards not visible**
+Genre cards not visible
 The four genre cards had the same background colour as the page, making them invisible. Fixed by setting the card background to white and darkening the border colour.
 
-**Slideshow track bars appearing outside container**
+Slideshow track bars appearing outside container
 After switching from JavaScript to a pure CSS animation, two horizontal bars appeared below the slideshow. These were the slides track div rendering outside the container. Fixed by adding overflow hidden to both the slideshow and hero layout containers.
 
----
 
 ## Credits
 
