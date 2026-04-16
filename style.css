@@ -19,7 +19,7 @@ img { max-width: 100%; display: block; }
 
 .hero-layout {
   display: flex;
-  flex-direction: column; /* Stacked for mobile */
+  flex-direction: column; 
   gap: 2rem;
   align-items: center;
 }
@@ -34,14 +34,13 @@ img { max-width: 100%; display: block; }
 <!--Slideshow Container Fixes-->
 
 .slideshow {
-  position: relative;     
+  position: relative; 
   width: 100%;
-  max-width: 500px;       
-  aspect-ratio: 4 / 3;     
-  margin: 0 auto;
+  max-width: 500px;
+  aspect-ratio: 4 / 3;   
   border-radius: 12px;
-  overflow: hidden;        
-  z-index: 1;
+  overflow: hidden;       
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 .slide {
