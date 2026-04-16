@@ -152,3 +152,4 @@ Both images are free to use under the Unsplash Licence: https://unsplash.com/lic
 
 ### Code
 
+All code was written by the developer.
