@@ -90,14 +90,23 @@ To clone and run the project locally:
 ### Manual Testing
 
 Feature: Home nav link — Goes to index.html — Pass
+
 Feature: About nav link — Goes to about.html — Pass
+
 Feature: Submissions nav link — Goes to submissions.html — Pass
+
 Feature: Active nav state — Current page link underlined — Pass
+
 Feature: Slideshow — Image changes without interaction — Pass
+
 Feature: Card hover — Card raises with shadow — Pass
+
 Feature: Form submit — Form submits on button click — Pass
+
 Feature: Layout at 375px — Content stacks to one column — Pass
+
 Feature: Cards at 650px — Cards go to two columns — Pass
+
 Feature: Footer — Visible and consistent on all pages — Pass
 
 ### Browser Compatibility
