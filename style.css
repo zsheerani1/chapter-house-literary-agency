@@ -1,108 +1,48 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
-body {
-  font-family: Georgia, serif;
-  line-height: 1.6;
-  background-color: #f6f2ea;
-  color: #1f1a17;
+.hero {
+  padding: 3rem 0 5rem;
 }
-
-.container {
-  width: min(90%, 1100px);
-  margin: 0 auto;
-}
-
-img { max-width: 100%; display: block; }
-
-<!--hero section responsiveness-->
-.hero { padding: 3rem 0; }
 
 .hero-layout {
-  display: flex;
-  flex-direction: column; 
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 2rem;
   align-items: center;
+  text-align: center;
 }
-
-.hero-text { text-align: center; }
 
 .hero-text h1 {
   font-size: 2.2rem;
   line-height: 1.1;
   margin-bottom: 1.5rem;
 }
-<!--Slideshow Container Fixes-->
 
 .slideshow {
-  position: relative; 
+  position: relative;
   width: 100%;
-  max-width: 500px;
-  aspect-ratio: 4 / 3;   
+  max-width: 520px;
+  margin: 0 auto;
+  aspect-ratio: 4 / 3;
   border-radius: 12px;
-  overflow: hidden;       
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .slide {
   position: absolute;
-  inset: 0;                
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;     
+  object-fit: cover;
   opacity: 0;
+  z-index: 1;
   transition: opacity 0.8s ease-in-out;
 }
 
 .slide.active-slide {
   opacity: 1;
+  z-index: 2;
 }
 
-.hero-layout {
-  display: flex;
-  flex-direction: column;  
-  gap: 2rem;
-  align-items: center;
-  text-align: center;
-  padding: 2rem 0;
-}
-
-@media (min-width: 850px) {
-  .hero-layout {
-    flex-direction: row;  
-    text-align: left;
-    justify-content: space-between;
-  }
-
-  .hero-text {
-    flex: 1;
-    max-width: 500px;
-  }
-
-  .slideshow {
-    flex: 1;
-  }
-}
-
-<!--Grid for Cards-->
-.card-grid {
-  display: grid;
-  grid-template-columns: 1fr; 
-  gap: 1.5rem;
-}
-
-@media (min-width: 600px) {
-  .card-grid {
-    grid-template-columns: repeat(2, 1fr); 
-  }
-}
-
-@media (min-width: 1000px) {
-  .card-grid {
-    grid-template-columns: repeat(4, 1fr); 
-  }
-}
-
-<!--dots styling-->
 .slide-dots {
   position: absolute;
   bottom: 15px;
@@ -110,7 +50,7 @@ img { max-width: 100%; display: block; }
   transform: translateX(-50%);
   display: flex;
   gap: 10px;
-  z-index: 10;
+  z-index: 3;
 }
 
 .dot {
@@ -124,4 +64,20 @@ img { max-width: 100%; display: block; }
 
 .dot.active-dot {
   background: white;
+}
+
+@media (min-width: 850px) {
+  .hero-layout {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    justify-content: space-between;
+  }
+
+  .hero-text {
+    max-width: 500px;
+  }
+
+  .slideshow {
+    margin: 0 0 0 auto;
+  }
 }
