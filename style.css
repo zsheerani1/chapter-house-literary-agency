@@ -1,4 +1,12 @@
-<!--Container & Mobile First approach-->
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  background-color: #f6f2ea;
+  color: #1f1a17;
+}
+
 .container {
   width: min(90%, 1100px);
   margin: 0 auto;
