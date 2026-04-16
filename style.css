@@ -201,13 +201,17 @@ p {
   gap: 1.25rem;
   margin-top: 2.25rem;
 }
-
 .card {
   background-color: #ffffff;
   border: 1px solid #d4cfc8;
   border-radius: 8px;
   padding: 1.75rem 1.6rem;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
 }
 
 form {
@@ -276,10 +280,7 @@ footer p {
   max-width: none;
   color: #b8ccc8;
 }
-.card:hover {
-  box-shadow: 0 6px 24px rgba(0,0,0,0.09);
-  transform: translateY(-2px);
-}
+
 .genre-list {
   list-style: none;
   margin-top: 1.5rem;
@@ -299,10 +300,6 @@ footer p {
   border-top: 1px solid #e0d8cd;
 }
 
-form {
-  margin-top: 1.75rem;
-  max-width: 660px;
-}
 @media (max-width: 400px) {
   .hero-text h1 {
     font-size: 2rem;
