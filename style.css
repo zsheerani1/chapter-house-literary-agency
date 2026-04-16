@@ -15,19 +15,22 @@ body {
 img { max-width: 100%; display: block; }
 
 <!--hero section responsiveness-->
+.hero { padding: 3rem 0; }
+
 .hero-layout {
-  display: grid;
-  grid-template-columns: 1fr; 
+  display: flex;
+  flex-direction: column; /* Stacked for mobile */
   gap: 2rem;
   align-items: center;
 }
 
-@media (min-width: 900px) {
-  .hero-layout {
-    grid-template-columns: 1fr 1fr;
-  }
-}
+.hero-text { text-align: center; }
 
+.hero-text h1 {
+  font-size: 2.2rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
 <!--Slideshow Container Fixes-->
 
 .slideshow {
