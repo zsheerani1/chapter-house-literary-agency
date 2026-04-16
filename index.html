@@ -33,11 +33,17 @@
           <a class="button" href="submissions.html">Read submission guidelines</a>
         </div>
 
+<!-- Hero images sourced from Unsplash (https://unsplash.com)
+       Licensed under the Unsplash Licence — https://unsplash.com/license -->
+        
         <div class="slideshow">
           <img class="slide active-slide" src="https://images.unsplash.com/photo-1593430980369-68efc5a5eb34?q=80&w=2085&auto=format&fit=crop" alt="Stack of open books against neutral background">
           <img class="slide" src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=987&auto=format&fit=crop" alt="Wooden bookshelf full of books">
 
           <div class="slide-dots">
+            <!-- Dot navigation pattern — adapted from:
+     W3Schools, "How TO - Slideshow"
+     https://www.w3schools.com/howto/howto_js_slideshow.asp -->
             <button class="dot active-dot" onclick="currentSlide(0)" aria-label="Image 1"></button>
             <button class="dot" onclick="currentSlide(1)" aria-label="Image 2"></button>
           </div>
@@ -84,6 +90,11 @@
     </div>
   </footer>
 
+  <!-- Slideshow script — logic adapted from:
+     MDN Web Docs, "setInterval()"
+     https://developer.mozilla.org/en-US/docs/Web/API/setInterval
+     MDN Web Docs, "Element.classList"
+     https://developer.mozilla.org/en-US/docs/Web/API/Element/classList -->
   <script>
     let slideIndex = 0;
     const slides = document.querySelectorAll(".slide");
