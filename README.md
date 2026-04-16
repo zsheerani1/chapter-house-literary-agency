@@ -123,7 +123,17 @@ Tested at 360px, 375px, 768px, and 1280px. The layout adjusts correctly at each 
 - CSS: Tested using the W3C CSS Validator at https://jigsaw.w3.org/css-validator/
 
 ### Lighthouse
+https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.34.53.png
 
+https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.35.47.png
+
+https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.36.06.png
+
+https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.36.42.png
+
+https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.37.16.png
+
+https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.37.50.png
 
 
 ### Bugs
