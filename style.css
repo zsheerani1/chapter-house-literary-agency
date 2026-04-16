@@ -210,12 +210,6 @@ p {
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.card:hover {
-  box-shadow: 0 6px 24px rgba(0,0,0,0.09);
-  transform: translateY(-2px);
-}
-
-
 form {
   margin-top: 1.75rem;
   max-width: 660px;
