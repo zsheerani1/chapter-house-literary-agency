@@ -280,7 +280,6 @@ footer p {
   box-shadow: 0 6px 24px rgba(0,0,0,0.09);
   transform: translateY(-2px);
 }
-
 .genre-list {
   list-style: none;
   margin-top: 1.5rem;
@@ -298,6 +297,11 @@ footer p {
   margin-top: 3rem;
   padding-top: 2rem;
   border-top: 1px solid #e0d8cd;
+}
+
+form {
+  margin-top: 1.75rem;
+  max-width: 660px;
 }
 @media (max-width: 400px) {
   .hero-text h1 {
