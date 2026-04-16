@@ -305,31 +305,6 @@ footer p {
   transform: translateY(-2px);
 }
 
-
-.genre-list {
-  list-style: none;
-  margin-top: 1.25rem;
-  margin-bottom: 2.5rem;
-}
-
-.genre-list li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #e0d8cd;
-  color: #3a3530;
-  font-size: 1rem;
-}
-
-.genre-list li:first-child {
-  border-top: 1px solid #e0d8cd;
-}
-
-.not-seeking {
-  margin-top: 2.5rem;
-}
-
-/* ── Form ── */
-form {
-
 @media (min-width: 650px) {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
