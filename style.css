@@ -9,6 +9,19 @@
   padding: 0;
 }
 
+.slideshow {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  height: 420px;         
+  aspect-ratio: 4 / 3;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.16);
+}
+
+
 body {
   font-family: Georgia, "Times New Roman", serif;
   background-color: #f7f4ee;
