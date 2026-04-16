@@ -7,7 +7,7 @@
 <!--hero section responsiveness-->
 .hero-layout {
   display: grid;
-  grid-template-columns: 1fr; /* Stack on mobile */
+  grid-template-columns: 1fr; 
   gap: 2rem;
   align-items: center;
 }
