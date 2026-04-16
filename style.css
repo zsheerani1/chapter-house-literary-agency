@@ -12,6 +12,8 @@ body {
   margin: 0 auto;
 }
 
+img { max-width: 100%; display: block; }
+
 <!--hero section responsiveness-->
 .hero-layout {
   display: grid;
