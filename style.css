@@ -280,6 +280,25 @@ footer p {
   box-shadow: 0 6px 24px rgba(0,0,0,0.09);
   transform: translateY(-2px);
 }
+
+.genre-list {
+  list-style: none;
+  margin-top: 1.5rem;
+  border-top: 1px solid #e0d8cd;
+}
+
+.genre-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e0d8cd;
+  color: #3a3530;
+  font-size: 1rem;
+}
+
+.not-seeking {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0d8cd;
+}
 @media (max-width: 400px) {
   .hero-text h1 {
     font-size: 2rem;
