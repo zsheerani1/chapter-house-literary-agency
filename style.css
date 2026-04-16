@@ -138,12 +138,12 @@ nav a.active {
   overflow: hidden;
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.16);
 }
-
 .slides-track {
   display: flex;
   width: 200%;
   height: 100%;
   animation: slideshow 10s infinite;
+  will-change: transform;
 }
 
 .slides-track .slide {
