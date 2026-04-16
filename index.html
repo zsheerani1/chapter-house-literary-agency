@@ -46,80 +46,60 @@
       </div>
     </section>
   <!--TEST-->
-  
-    </section>
-  </maim<
-    </section>
-    <section class="section">
+  <section class="section">
       <div class="container">
         <h2>What we represent</h2>
         <div class="card-grid">
           <article class="card">
             <h3>Literary Fiction</h3>
-            <p>
-              We are drawn to thoughtful, voice-driven fiction with emotional depth
-              and strong character development.
-            </p>
+            <p>Thoughtful, voice-driven fiction with emotional depth.</p>
           </article>
-
           <article class="card">
             <h3>Crime and Suspense</h3>
-            <p>
-              We welcome tightly plotted mysteries, psychological suspense, and
-              commercial thrillers with a distinctive edge.
-            </p>
+            <p>Tightly plotted mysteries and commercial thrillers.</p>
           </article>
-
           <article class="card">
             <h3>Book Club Fiction</h3>
-            <p>
-              We are interested in accessible, discussion-worthy fiction that blends
-              strong storytelling with layered themes.
-            </p>
+            <p>Accessible, discussion-worthy storytelling.</p>
           </article>
-
           <article class="card">
             <h3>Speculative Fiction</h3>
-            <p>
-              We enjoy genre-blending work with imaginative concepts, especially when
-              grounded by human stakes and clear narrative focus.
-            </p>
+            <p>Imaginative concepts grounded by human stakes.</p>
           </article>
         </div>
       </div>
     </section>
-
-    <section class="section">
-      <div class="container">
-        <h2>Our approach</h2>
-        <p>
-          We work closely with writers to develop standout manuscripts and build
-          lasting publishing careers. Our focus is on strong editorial guidance,
-          careful positioning, and long-term author development.
-        </p>
-        <p>
-          Whether you are querying your first novel or preparing a new project, we
-          value originality, clarity, and emotional resonance.
-        </p>
-      </div>
-    </section>
   </main>
-
+<!--TEST-->
   <footer>
     <div class="container">
       <p>&copy; 2026 Chapter House Literary Agency</p>
-      <p>Professional literary representation for contemporary authors.</p>
     </div>
   </footer>
-  <div id="hcg-slider-1" class="hcg-slider">
-    <div class="hcg-slide-container">
-        <div class="hcg-slider-track"></div>
+<script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
 
-        <a href="#" id="hcg-slide-prev">❮</a>
-        <a href="#" id="hcg-slide-next">❯</a>
-    </div>
+    function showSlide(n) {
+      slides.forEach(s => s.classList.remove("active-slide"));
+      dots.forEach(d => d.classList.remove("active-dot"));
+      
+      slideIndex = (n + slides.length) % slides.length;
+      
+      slides[slideIndex].classList.add("active-slide");
+      dots[slideIndex].classList.add("active-dot");
+    }
 
-    <div class="hcg-slide-dot-control"></div>
-</div>
+    function currentSlide(n) {
+      showSlide(n);
+      slideIndex = n; 
+    }
+
+    setInterval(() => {
+      slideIndex++;
+      showSlide(slideIndex);
+    }, 5000);
+  </script>
 </body>
 </html>
