@@ -27,6 +27,11 @@ a {
   text-decoration: none;
 }
 
+.external-link {
+  color: blue;
+  text-decoration: underline;
+}
+
 .container {
   width: min(88%, 1080px);
   margin-inline: auto;
