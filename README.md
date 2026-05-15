@@ -123,18 +123,20 @@ Tested at 360px, 375px, 768px, and 1280px. The layout adjusts correctly at each 
 - CSS: Tested using the W3C CSS Validator at https://jigsaw.w3.org/css-validator/
 
 ### Lighthouse
-https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.34.53.png
+### Index page
+![Lighthouse index desktop](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-index-desktop.png)
 
-https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.35.47.png
+![Lighthouse index mobile](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-index-mobile.png)
 
-https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.36.06.png
+### About page
+![Lighthouse about desktop](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-about-desktop.png)
 
-https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.36.42.png
+![Lighthouse about mobile](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-about-mobile.png)
 
-https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.37.16.png
+### Submissions page
+![Lighthouse submissions desktop](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-submissions-desktop.png)
 
-https://github.com/zsheerani1/chapter-house-literary-agency/blob/main/Screenshot%202026-04-16%20at%2022.37.50.png
-
+![Lighthouse submissions mobile](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-submissions-mobile.png)
 
 ### Bugs
 
