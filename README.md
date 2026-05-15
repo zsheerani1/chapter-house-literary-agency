@@ -1,6 +1,6 @@
 # Chapter House Literary Agency
 
-Chapter House Literary Agency is a static front-end website for a fictional literary agency. The project was created as part of the Level 5 Diploma in Web Application Development and is designed to present a clear, professional, and responsive experience for authors seeking representation [file:247].
+Chapter House Literary Agency is a static front-end website for a fictional literary agency. The project was created as part of the Level 5 Diploma in Web Application Development and is designed to present a clear, professional, and responsive experience for authors seeking representation 
 
 **Live site:** [Chapter House Literary Agency](https://zsheerani1.github.io/chapter-house-literary-agency/)  
 **Repository:** [GitHub Repository](https://github.com/zsheerani1/chapter-house-literary-agency)
