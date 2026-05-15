@@ -114,11 +114,11 @@ The typography was designed to balance literary character with usability. Serif 
 
 #### Typography Rationale
 
-Georgia was selected as the main content typeface because it is a serif font designed for comfortable on-screen reading and suits a content-led, editorial-style website. Its traditional appearance supports the literary identity of the fictional agency while remaining readable across different screen sizes [web:312][web:310].
+Georgia was selected as the main content typeface because it is a serif font designed for comfortable on-screen reading and suits a content-led, editorial-style website. Its traditional appearance supports the literary identity of the fictional agency while remaining readable across different screen sizes.
 
-Arial was used for navigation, buttons, and labels to provide contrast against the serif body type and to keep interface elements crisp and easy to scan. This works especially well for short uppercase navigation labels and calls to action, where a sans-serif typeface improves clarity [web:319][web:311].
+Arial was used for navigation, buttons, and labels to provide contrast against the serif body type and to keep interface elements crisp and easy to scan. This works especially well for short uppercase navigation labels and calls to action, where a sans-serif typeface improves clarity.
 
-The typography hierarchy was reinforced through font size, spacing, and contrast rather than using many different fonts. Large serif headings establish tone, body copy remains readable through generous line-height, and smaller sans-serif interface text helps users distinguish navigation and actions from content [web:310][web:313].
+The typography hierarchy was reinforced through font size, spacing, and contrast rather than using many different fonts. Large serif headings establish tone, body copy remains readable through generous line-height, and smaller sans-serif interface text helps users distinguish navigation and actions from content.
 
 ### Imagery
 
@@ -127,19 +127,6 @@ The homepage uses book-related photography to support the literary identity of t
 ### Wireframes
 
 Wireframes were created during the planning stage to map the structure and hierarchy of each page before development began.
-
-#### Index page wireframe
-![Index page wireframe](./assets/assets/images/screenshots/wireframes/chapter-house-wireframe-index.png)
-
-#### About page wireframe
-![About page wireframe](./assets/assets/images/screenshots/wireframes/chapter-house-wireframe-about.png)
-
-#### Submissions page wireframe
-![Submissions page wireframe](./assets/assets/images/screenshots/wireframes/chapter-house-wireframe-submissions.png)
-
-### Wireframes
-
-Initial wireframes were created during the planning stage to map out the structure and hierarchy of each page.
 
 #### Index page wireframe
 ![Index page wireframe](./assets/assets/images/screenshots/wireframes/chapter-house-wireframe-index.png)
@@ -291,8 +278,7 @@ After replacing JavaScript with a CSS-only slideshow, layout artefacts appeared 
 
 #### Unfixed Bugs
 
-No known unfixed bugs remain at the time of submission.
-
+No known unfixed bugs remain at the time of submission. Code was validated on https://validator.w3.org/
 ---
 
 ## Deployment
