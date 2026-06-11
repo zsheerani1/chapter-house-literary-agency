@@ -246,19 +246,28 @@ The stylesheet was tested using the [W3C CSS Validator](https://jigsaw.w3.org/cs
 ### Lighthouse Testing
 
 #### Index page
+
+#### Desktop
 ![Homepage Lighthouse desktop results](./assets/assets/images/screenshots/chapter-house-lighthouse-index-desktop.png)
 
+#### Mobile
 ![Homepage Lighthouse mobile results](./assets/assets/images/screenshots/chapter-house-lighthouse-index-mobile.png)
 
 #### About page
+
+#### Desktop
 ![About page Lighthouse desktop results](./assets/assets/images/screenshots/chapter-house-lighthouse-about-desktop.png)
 
+#### Mobile
 ![About page Lighthouse mobile results](./assets/assets/images/screenshots/chapter-house-lighthouse-about-mobile.png)
 
 
 #### Submissions page
+
+#### Desktop
 ![Submissions page Lighthouse desktop results](./assets/assets/images/screenshots/chapter-house-lighthouse-submissions-desktop.png)
 
+#### Mobile
 ![Submissions page Lighthouse mobile results](./assets/assets/images/screenshots/chapter-house-lighthouse-submissions-mobile.png)
 
 ### Bugs
