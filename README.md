@@ -132,7 +132,7 @@ Wireframes were created during the planning stage to map the structure and hiera
 ![Homepage wireframe](./assets/assets/images/screenshots/chapter-house-home-wireframe.png)
 
 #### About page wireframe
-![About page wireframe](./assets/assets/images/screenshots/wireframes/chapter-house-wireframe-about.png)
+![About page wireframe](./assets/assets/images/screenshots/chapter-house-about-wireframe.png)
 
 #### Submissions page wireframe
 ![Submissions page wireframe](./assets/assets/images/screenshots/wireframes/chapter-house-wireframe-submissions.png)
