@@ -42,7 +42,7 @@ The main goal of the site is to provide a clear and engaging online presence for
 
 ## User Story: Understand what the agency represents
 
-As a first-time visitor, I want to understand what the agency represents so that I can decide whether it is relevant to me.
+# As a first-time visitor, I want to understand what the agency represents so that I can decide whether it is relevant to me.
 
 The homepage introduces the agency's editorial focus through a dedicated "What we represent" section, helping visitors quickly understand the genres and literary areas the agency is interested in.
 
