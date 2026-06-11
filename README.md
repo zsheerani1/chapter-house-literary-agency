@@ -129,7 +129,7 @@ The homepage uses book-related photography to support the literary identity of t
 Wireframes were created during the planning stage to map the structure and hierarchy of each page before development began.
 
 #### Index page wireframe
-![Index page wireframe](./assets/assets/images/screenshots/wireframes/chapter-house-wireframe-index.png)
+![Homepage wireframe](./assets/assets/images/screenshots/chapter-house-home-wireframe.png)
 
 #### About page wireframe
 ![About page wireframe](./assets/assets/images/screenshots/wireframes/chapter-house-wireframe-about.png)
