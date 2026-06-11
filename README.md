@@ -56,10 +56,14 @@ The website helps potential submitters assess whether their work is a good fit b
 
 ![Evidence showing agency submission preferences and suitability guidance](./assets/assets/images/screenshots/chapter-house-user-story-evidence-2.png)
 
-#### Mobile User Goals
+### User Story: Mobile accessibility and responsive layout
 
-- As a mobile user, I want the site to remain clear, readable, and easy to navigate on a smaller screen.
-- As a mobile user, I want the key content and navigation to work without layout issues so that I can access information on the go.
+As a mobile user, I want the site to remain clear, readable, and easy to navigate on a smaller screen.  
+As a mobile user, I want the key content and navigation to work without layout issues so that I can access information on the go.
+
+The homepage was tested in a mobile viewport to confirm that the layout remains readable and functional on smaller screens. The screenshot below shows that the navigation, heading structure, body text, call-to-action button, and featured image all adapt clearly within a mobile screen width without overlapping or breaking the layout.
+
+![Mobile responsive view of the homepage showing readable layout and navigation](./assets/assets/images/screenshots/chapter-house-user-story-evidence-3.png)
 
 ### Site Owner Goals
 
