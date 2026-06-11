@@ -246,19 +246,20 @@ The stylesheet was tested using the [W3C CSS Validator](https://jigsaw.w3.org/cs
 ### Lighthouse Testing
 
 #### Index page
-![Lighthouse index desktop](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-index-desktop.png)
+![Homepage Lighthouse desktop results](./assets/assets/images/screenshots/chapter-house-lighthouse-index-desktop.png)
 
-![Lighthouse index mobile](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-index-mobile.png)
+![Homepage Lighthouse mobile results](./assets/assets/images/screenshots/chapter-house-lighthouse-index-mobile.png)
 
 #### About page
-![Lighthouse about desktop](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-about-desktop.png)
+![About page Lighthouse desktop results](./assets/assets/images/screenshots/chapter-house-lighthouse-about-desktop.png)
 
-![Lighthouse about mobile](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-about-mobile.png)
+![About page Lighthouse mobile results](./assets/assets/images/screenshots/chapter-house-lighthouse-about-mobile.png)
+
 
 #### Submissions page
-![Lighthouse submissions desktop](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-submissions-desktop.png)
+![Submissions page Lighthouse desktop results](./assets/assets/images/screenshots/chapter-house-lighthouse-submissions-desktop.png)
 
-![Lighthouse submissions mobile](./assets/assets/images/screenshots/lighthouse/chapter-house-lighthouse-submissions-mobile.png)
+![Submissions page Lighthouse mobile results](./assets/assets/images/screenshots/chapter-house-lighthouse-submissions-mobile.png)
 
 ### Bugs
 
