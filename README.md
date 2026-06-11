@@ -48,14 +48,13 @@ The homepage introduces the agency's editorial focus through a dedicated "What w
 
 ![User story evidence 1 - represented genres section](./assets/assets/images/screenshots/chapter-house-user-story-evidence-1.png)
 
-## User Story 2
+### User Story: Genre and suitability guidance
+
 - As a writer seeking representation, I want to know what genres the agency is interested in so that I do not waste time submitting unsuitable work.
-- As a visitor, I want the site to look professional and trustworthy so that I feel confident engaging with the agency.
 
-#### Returning Visitor Goals
+The website helps potential submitters assess whether their work is a good fit by outlining the qualities and editorial criteria the agency looks for, including distinctive voice, strong concept, emotional depth, and market awareness.
 
-- As a returning visitor, I want to navigate quickly between pages so that I can find the exact information I need.
-- As a returning user, I want to revisit the submissions page easily so that I can check the required materials before sending a query.
+![Evidence showing agency submission preferences and suitability guidance](./assets/assets/images/screenshots/chapter-house-user-story-evidence-2.png)
 
 #### Mobile User Goals
 
