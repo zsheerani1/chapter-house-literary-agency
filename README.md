@@ -40,9 +40,15 @@ The main goal of the site is to provide a clear and engaging online presence for
 
 ### User Stories
 
-#### First-time Visitor Goals
+## User Story: Understand what the agency represents
 
-- As a first-time visitor, I want to understand what the agency represents so that I can decide whether it is relevant to me.
+As a first-time visitor, I want to understand what the agency represents so that I can decide whether it is relevant to me.
+
+The homepage introduces the agency's editorial focus through a dedicated "What we represent" section, helping visitors quickly understand the genres and literary areas the agency is interested in.
+
+![User story evidence 1 - represented genres section](./assets/assets/images/screenshots/chapter-house-user-story-evidence-1.png)
+
+## User Story 2
 - As a writer seeking representation, I want to know what genres the agency is interested in so that I do not waste time submitting unsuitable work.
 - As a visitor, I want the site to look professional and trustworthy so that I feel confident engaging with the agency.
 
