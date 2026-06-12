@@ -212,18 +212,24 @@ Wireframes were created during the planning stage to map the structure and hiera
 
 ### Manual Testing
 
-| Feature | Expected Outcome | Result |
-|---|---|---|
-| Home nav link | Navigates to `index.html` | Pass |
-| About nav link | Navigates to `about.html` | Pass |
-| Submissions nav link | Navigates to `submissions.html` | Pass |
-| Active nav state | Current page link is visually highlighted | Pass |
-| Slideshow | Images transition automatically | Pass |
-| Card hover states | Cards respond visually on hover | Pass |
-| Contact form | Inputs accept user content and submit button works | Pass |
-| Mobile layout | Content stacks correctly on small screens | Pass |
-| Tablet layout | Cards reorganise cleanly into fewer columns | Pass |
-| Footer | Displays consistently across all pages | Pass |
+## Manual Testing
+
+Manual testing was carried out throughout development to confirm that navigation, content structure, responsiveness, and interactive elements worked as expected across the site.
+
+| Feature | Test Performed | Expected Outcome | Result |
+|---------|----------------|------------------|--------|
+| Navigation links | Clicked Home, About, and Submissions links from each page | Each link opens the correct page with no errors | Pass |
+| Homepage content | Loaded the homepage and reviewed the hero section, text, image, and call-to-action button | Content is readable, visually balanced, and loads correctly | Pass |
+| About page content | Opened the About page and reviewed headings, paragraphs, and layout | Page content is clearly structured and easy to read | Pass |
+| Submissions page content | Opened the Submissions page and reviewed all submission guidance sections | Information is clearly presented and easy to follow | Pass |
+| Genre guidance | Reviewed the homepage "What we represent" section | Visitors can quickly understand the genres represented by the agency | Pass |
+| Submission suitability guidance | Reviewed the "What we look for" section | Writers can assess whether their work is suitable before submitting | Pass |
+| Call-to-action button | Clicked the submission guidance button on the homepage | Button directs users to the relevant submission information | Pass |
+| Mobile responsiveness | Tested all pages in Chrome DevTools mobile view | Layout remains readable and functional on smaller screens | Pass |
+| Tablet responsiveness | Tested all pages in tablet view | Content spacing and alignment remain consistent | Pass |
+| Desktop responsiveness | Tested all pages on desktop screen widths | Layout displays correctly without broken sections or overlap | Pass |
+| Image loading | Checked all content and decorative images across the site | Images display correctly with no broken files | Pass |
+| Internal links | Tested all internal navigation links manually | No internal links return errors or broken pages | Pass |
 
 ### Browser Compatibility
 
