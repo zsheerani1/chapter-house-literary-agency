@@ -231,6 +231,19 @@ Manual testing was carried out throughout development to confirm that navigation
 | Image loading | Checked all content and decorative images across the site | Images display correctly with no broken files | Pass |
 | Internal links | Tested all internal navigation links manually | No internal links return errors or broken pages | Pass |
 
+
+### Testing: Tablet responsiveness testing
+
+The website was tested in Chrome DevTools using a tablet viewport to confirm that the layout, typography, navigation, and imagery remain clear and usable at medium screen sizes.
+
+![Tablet view of the homepage in Chrome DevTools](./assets/assets/images/screenshots/chapter-house-tablet-view.png)
+
+### Testing: Mobile responsiveness testing
+
+The website was tested in Chrome DevTools using an iPhone-sized viewport to confirm that the layout, typography, navigation, and imagery remain clear and usable on smaller screens.
+
+![Mobile view of the homepage in Chrome DevTools](./assets/assets/images/screenshots/chapter-house-mobile-view.png)
+
 ### Browser Compatibility
 
 The site was tested in:
