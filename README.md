@@ -277,7 +277,7 @@ The design adapts from a single-column mobile layout to a wider multi-column des
 ### Validator Testing
 
 #### HTML
-All HTML files were tested using the [W3C HTML Validator](https://validator.w3.org/).
+[All HTML files were tested using the [W3C HTML Validator](https://validator.w3.org/).](https://zsheerani1.github.io/chapter-house-literary-agency/)
 
 #### CSS
 The stylesheet was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
