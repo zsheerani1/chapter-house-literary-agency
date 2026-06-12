@@ -284,7 +284,7 @@ HTML validation was carried out using the [W3C Markup Validation Service](https:
 - About page: https://zsheerani1.github.io/chapter-house-literary-agency/about.html
 - Submissions page: https://zsheerani1.github.io/chapter-house-literary-agency/submissions.html
 
-![Homepage HTML validation result](./assets/assets/images/screenshots/your-html-validator-homepage.png)
+![Homepage HTML validation result](./assets/assets/images/screenshots/chapter-house-W3C-validator.png)
 
 ### CSS Validation
 
