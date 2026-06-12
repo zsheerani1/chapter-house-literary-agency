@@ -276,11 +276,21 @@ The design adapts from a single-column mobile layout to a wider multi-column des
 
 ### Validator Testing
 
-#### HTML
-[All HTML files were tested using the [W3C HTML Validator](https://validator.w3.org/).](https://zsheerani1.github.io/chapter-house-literary-agency/)
+### HTML Validation
 
-#### CSS
-The stylesheet was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+HTML validation was carried out using the [W3C Markup Validation Service](https://validator.w3.org/). Each page of the website was tested to confirm that the markup met current validation standards.
+
+- Homepage: https://zsheerani1.github.io/chapter-house-literary-agency/
+- About page: https://zsheerani1.github.io/chapter-house-literary-agency/about.html
+- Submissions page: https://zsheerani1.github.io/chapter-house-literary-agency/submissions.html
+
+![Homepage HTML validation result](./assets/assets/images/screenshots/your-html-validator-homepage.png)
+
+### CSS Validation
+
+CSS validation was carried out using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to confirm that the stylesheet used across the project met validation standards.
+
+![CSS validation result](./assets/assets/images/screenshots/chapter-house-W3C-validator-CSS.png)
 
 ## Lighthouse Testing
 
