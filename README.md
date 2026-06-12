@@ -292,6 +292,15 @@ CSS validation was carried out using the [W3C CSS Validation Service](https://ji
 
 ![CSS validation result](./assets/assets/images/screenshots/chapter-house-W3C-validator-CSS.png)
 
+### Link Testing
+
+All internal and external links were checked to ensure that users can move between pages and access any external resources without errors.
+
+![Link testing evidence](./assets/assets/images/screenshots/chapter-house-link-testing.png)
+
+
+
+
 ## Lighthouse Testing
 
 Lighthouse testing was carried out on all three pages of the website in both desktop and mobile viewports. These tests were used to review performance, accessibility, best practices, and SEO, and to identify any areas that could be improved before submission.
