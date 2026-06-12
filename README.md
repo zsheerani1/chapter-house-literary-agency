@@ -282,24 +282,33 @@ All HTML files were tested using the [W3C HTML Validator](https://validator.w3.o
 #### CSS
 The stylesheet was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-### Lighthouse Testing
+## Lighthouse Testing
 
-#### Index page
+Lighthouse testing was carried out on all three pages of the website in both desktop and mobile viewports. These tests were used to review performance, accessibility, best practices, and SEO, and to identify any areas that could be improved before submission.
 
-#### Desktop
+### Homepage Lighthouse Results
+
+The homepage was tested in both desktop and mobile viewports to confirm that it performs well and remains accessible across different devices.
+
 ![Homepage Lighthouse desktop results](./assets/assets/images/screenshots/chapter-house-lighthouse-index-desktop.png)
 
-#### Mobile
 ![Homepage Lighthouse mobile results](./assets/assets/images/screenshots/chapter-house-lighthouse-index-mobile.png)
 
-#### About page
+### About Page Lighthouse Results
 
-#### Desktop
+The About page was tested in both desktop and mobile viewports to ensure that content presentation, semantic structure, and accessibility standards were maintained.
+
 ![About page Lighthouse desktop results](./assets/assets/images/screenshots/chapter-house-lighthouse-about-desktop.png)
 
-#### Mobile
 ![About page Lighthouse mobile results](./assets/assets/images/screenshots/chapter-house-lighthouse-about-mobile.png)
 
+### Submissions Page Lighthouse Results
+
+The Submissions page was tested in both desktop and mobile viewports to review usability, content clarity, and technical quality across screen sizes.
+
+![Submissions page Lighthouse desktop results](./assets/assets/images/screenshots/chapter-house-lighthouse-submissions-desktop.png)
+
+![Submissions page Lighthouse mobile results](./assets/assets/images/screenshots/chapter-house-lighthouse-submissions-mobile.png)
 
 #### Submissions page
 
