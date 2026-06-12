@@ -251,7 +251,18 @@ The site was tested in:
 - Safari
 - Firefox
 
-The layout, navigation, and content displayed as expected across each browser.
+### Firefox compatibility testing
+
+Cross-browser testing was carried out in Mozilla Firefox to verify that the website's structure, styling, navigation, and content presentation remained consistent.
+
+![Firefox browser compatibility testing](./assets/assets/images/screenshots/chapter-house-firefox.png)
+
+### Safari compatibility testing
+
+Cross-browser testing was also carried out in Safari to verify that the website remained visually consistent and functionally usable across multiple desktop browsers.
+
+![Safari browser compatibility testing](./assets/assets/images/screenshots/chapter-house-safari.png)
+
 
 ### Responsiveness
 
